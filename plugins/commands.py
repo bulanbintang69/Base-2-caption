@@ -15,12 +15,12 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 start_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("About Markdown", callback_data = "markdown_data"), 
-                  InlineKeyboardButton("About Dynamic", callback_data = "dynamic_data")
+                  InlineKeyboardButton("♦️ Sobre o Markdown", callback_data = "markdown_data"), 
+                  InlineKeyboardButton("♦️ Sobre a Dinâmica", callback_data = "dynamic_data")
               ],
               [
-                  InlineKeyboardButton("Source Code", url = "https://github.com/samadii/ChannelAutoCaption"),
-                  InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                  InlineKeyboardButton("👑 Criador 👑", url = "https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx"),
+                  InlineKeyboardButton("🔐 Fechar", callback_data="close_data")
               ]
         ]
 )
@@ -62,8 +62,8 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("⬇️ Voltar", callback_data="back_data"),
+                        InlineKeyboardButton("🔐 Fechar", callback_data="close_data")
                        ]
  
                    ] 
@@ -77,8 +77,8 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("⬇️ Voltar", callback_data="back_data"),
+                        InlineKeyboardButton("🔐 Fechar", callback_data="close_data")
                        ]
  
                    ] 
