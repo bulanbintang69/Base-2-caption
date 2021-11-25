@@ -2,7 +2,7 @@ class Translation(object):
 
       
       START_TEXT = """
-(︶︹︺) Opa gay {},
+(＃＞＜) Opa jovem {},
 
 • Comandos para essa base.
 - /set_cap Para alterar sua legenda
