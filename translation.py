@@ -2,63 +2,59 @@ class Translation(object):
 
       
       START_TEXT = """
-😃 Hi {},
-I am Channel Auto Caption bot.
+(︶︹︺) Opa gay {},
 
-I can automatically add pre-setted caption and button to the files.
-You can also use Markdown styles, supported Dynamic variables in seting caption (Details in below buttons).
+• Comandos para essa base.
+- /set_cap Para alterar sua legenda
+- /set_btn Para alterar o botão 
+- /rmv_cap Para remover a legenda
+- /rmv_btn Para remover o botão 
 
-• Commands
-- /set_cap To Set Caption
-- /set_btn To Set Button
-- /rmv_cap To Remove Caption
-- /rmv_btn To Remove Button
-
-⚠️NOTE
-➪ Before seting, ensure that bot is admin in your channel with editing permission.
+➡️ Um Aviso:
+➪ Essa é uma base pra aprimorar para legendar arquivos, fotos, músicas (arquivos files) mais rápido, se quiser usar essa base use os comandos acima e veja como funciona! Se não souber, chame o criador. (⌒_⌒;) 
 """    
       DYNAMIC_TEXT = """
-🔰 <u>About Dynamic</u>
+🔰 <u>Sobre as dinâmicas para usar nessa base</u>
 
 
-- You can add {variable_name} in caption, bot will replace these variables by its value according to file.
+- Você pode adicionar {variable_name} na legenda, bot substituirá essas variáveis pelo seu valor de acordo com o arquivo.
 
-  Example: Title: {filename}
+  Exemplo: Título: {filename}
 
-  Supported variables:
+  Variáveis suportadas:
   filename, ext, mime_type
 
-  Additional variables:
-  For video files: width, height, duration
-  For audio files: title, artist, duration
+  Variáveis adicionais:
+  Para arquivos de vídeo: width, height, duration
+  Para arquivos de áudio: title, artist, duration
 """
 
 
       MARKDOWN_TEXT = """
-🔰 <u>𝐀𝐛𝐨𝐮𝐭 𝐌𝐚𝐫𝐤𝐝𝐨𝐰𝐧</u>
+😴 <u>Sobre o 𝐌𝐚𝐫𝐤𝐝𝐨𝐰𝐧</u>
 
 
-👉 <b>Bold text</b>
+👉 <b>Textos Bold</b>
 
-📌 <code>**text**</code>
+ヅ <code>**Texto**</code>
 
-👉 <b>Italic text</b>
+👉 <b>Italic Texto</b>
 
-📌 <code>__text__</code>
+ヅ <code>__Texto__</code>
 
-👉 <b>Underline text</b>
+👉 <b>Underline Texto</b>
 
-📌 <code>--text--</code>
+ヅ <code>--Texto--</code>
 
-👉 <b>Strike text</b>
+👉 <b>Strike Texto</b>
 
-📌 <code>~~text~~</code>
+ヅ <code>~~Texto~~</code>
 
-👉 <b>Code text</b>
+👉 <b>Code Texto</b>
 
-📌 <code>`text`</code>
+ヅ <code>`texto`</code>
 
-👉 <b>Hyperlink text</b>
+👉 <b>Hyperlink texto</b>
 
-📌 <code>[text](https://t.me/durov)</code>
+ヅ <code>[texto do guei](https://t.me/durov)</code>
 """
