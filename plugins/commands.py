@@ -19,7 +19,7 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("♦️ Sobre a Dinâmica", callback_data = "dynamic_data")
               ],
               [
-                  InlineKeyboardButton("👑 Criador 👑", url = "https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx"),
+                  InlineKeyboardButton("👑 Criador 👑", url = "https://t.me/The_Panda_Ofc"),
                   InlineKeyboardButton("🔐 Fechar", callback_data="close_data")
               ]
         ]
