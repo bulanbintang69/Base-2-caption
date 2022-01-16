@@ -17,7 +17,7 @@ from pyrogram.errors import FloodWait
 async def editing(bot, message):
     if (message.chat.type == "private"):
         if ("/set_cap" in message.text) and ((len(message.text.split(' ')) == 2) or (len(message.text.split(' ')) == 1)):
-            await message.reply_text("♦️ 𝙲𝚘𝚗𝚏𝚒𝚐𝚞𝚛𝚊çã𝚘 𝚍𝚎 𝙻𝚎𝚐𝚎𝚗𝚍𝚊 \n\nUse o comando para definir legenda personalizada para qualquer um de seus canais.\n\n👉 `/set_cap -100(o id do seu canal) exemplo: - 1001234567890 com a legenda qhe você quer definir... EXEMPLO: /set_cap -100273783838 Boa noite é o caralho`", quote = True)
+            await message.reply_text("♦️ 𝙲𝚘𝚗𝚏𝚒𝚐𝚞𝚛𝚊çã𝚘 𝚍𝚎 𝙻𝚎𝚐𝚎𝚗𝚍𝚊 \n\nUse o comando para definir legenda personalizada para qualquer um de seus canais.\n\n👉 `/set_cap -100(o id do seu canal) exemplo: -1001234567890 com a legenda que você quer definir... EXEMPLO: /set_cap -100273783838 Boa noite vossos admin`", quote = True)
         elif ("/set_cap" in message.text) and (len(message.text.split(' ')) != 2) and (len(message.text.split(' ')) != 1):
             caption = message.text.markdown.split(' ', 2)[2]
             channel = message.text.split(' ', 2)[1].replace("-100", "")
